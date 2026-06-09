@@ -84,30 +84,25 @@ function AppContent() {
       <AuthModal isOpen={isAuthOpen} onClose={() => setIsAuthOpen(false)} />
 
       {/* Luxury Footer */}
-      <footer className="liquid-glass-footer" style={{ textAlign: 'center', position: 'relative', overflow: 'hidden' }}>
-        {/* Subtle Branding Watermark */}
-        <img 
-          src="/panduka_studios.png" 
-          alt="" 
-          style={{ 
-            position: 'absolute', 
-            right: '-15px', 
-            bottom: '-15px', 
-            height: '140px', 
-            opacity: 0.08, 
-            mixBlendMode: 'screen', 
-            pointerEvents: 'none',
-            userSelect: 'none',
-            filter: 'brightness(1.2) contrast(1.1)'
-          }} 
-        />
-        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', position: 'relative', zIndex: 2 }}>
+      <footer className="liquid-glass-footer" style={{ textAlign: 'center' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.5rem' }}>
           <div style={{ textAlign: 'left' }}>
             <h4 style={{ fontFamily: "'Outfit', sans-serif", fontSize: '1.05rem', color: '#fff', marginBottom: '0.4rem', textTransform: 'uppercase' }}>AQUA FORGE ACADEMY</h4>
             <p>Forging high-performance aquatic excellence. All sessions priced exclusively in LKR.</p>
           </div>
-          <div>
-            <p>© {new Date().getFullYear()} Aqua Forge. Engineered by Panduka.W Studios. All rights reserved.</p>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
+            <img 
+              src="/panduka_studios.png" 
+              alt="Panduka.W Studios" 
+              style={{ 
+                height: '42px', 
+                mixBlendMode: 'screen',
+                opacity: 0.6,
+                filter: 'drop-shadow(0 0 8px rgba(0, 242, 254, 0.2))',
+                objectFit: 'contain'
+              }} 
+            />
+            <p style={{ margin: 0 }}>© {new Date().getFullYear()} Aqua Forge. Engineered by Panduka.W Studios. All rights reserved.</p>
           </div>
         </div>
       </footer>
