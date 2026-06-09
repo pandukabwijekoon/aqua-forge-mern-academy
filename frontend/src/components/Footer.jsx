@@ -12,7 +12,7 @@ export default function Footer({ onScrollToSection }) {
             AQUA FORGE ACADEMY
           </h4>
           <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: '1.6' }}>
-            Forging high-performance aquatic excellence. All sessions priced exclusively in LKR.
+            Forging high-performance aquatic excellence. Empowering swimmers to achieve championship-level results.
           </p>
           <div className="footer-social-icons">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="Instagram">
@@ -72,7 +72,7 @@ export default function Footer({ onScrollToSection }) {
             </li>
             <li className="footer-text-item">
               <CheckCircle2 size={16} style={{ color: 'var(--accent-cyan)', flexShrink: 0, marginTop: '0.15rem' }} />
-              <span>LKR Transaction Standards</span>
+              <span>Certified Training Standards</span>
             </li>
           </ul>
         </div>
