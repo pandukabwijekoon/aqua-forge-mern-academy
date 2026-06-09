@@ -91,10 +91,16 @@ function AppContent() {
             <p>Forging high-performance aquatic excellence. All sessions priced exclusively in LKR.</p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.4rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <img src="/panduka_studios.png" alt="Panduka.W Studios" style={{ height: '32px', filter: 'drop-shadow(0 0 8px rgba(0, 242, 254, 0.25))' }} />
-              <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: '600', letterSpacing: '0.05em', color: '#fff' }}>PANDUKA.W STUDIOS</span>
-            </div>
+            <img 
+              src="/panduka_studios.png" 
+              alt="Panduka.W Studios" 
+              style={{ 
+                height: '60px', 
+                mixBlendMode: 'screen',
+                filter: 'drop-shadow(0 0 12px rgba(0, 242, 254, 0.3))',
+                objectFit: 'contain'
+              }} 
+            />
             <p>© {new Date().getFullYear()} Aqua Forge. Engineered by Panduka.W Studios. All rights reserved.</p>
           </div>
         </div>
