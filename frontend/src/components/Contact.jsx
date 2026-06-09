@@ -182,12 +182,12 @@ export const Contact = () => {
                 <div>
                   <h4 style={{ fontSize: '0.78rem', fontWeight: 800, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.35rem' }}>Official Registry Email</h4>
                   <a 
-                    href="mailto:info@aquaforge.com"
+                    href="mailto:dilwork98@gmail.com"
                     style={{ fontSize: '1rem', color: '#fff', fontWeight: 600, textDecoration: 'none', transition: 'var(--transition-smooth)' }}
                     onMouseEnter={(e) => e.target.style.color = '#00f2fe'}
                     onMouseLeave={(e) => e.target.style.color = '#fff'}
                   >
-                    info@aquaforge.com
+                    dilwork98@gmail.com
                   </a>
                 </div>
               </div>

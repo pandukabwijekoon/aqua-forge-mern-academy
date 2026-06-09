@@ -91,8 +91,8 @@ export default function Footer({ onScrollToSection }) {
             </li>
             <li className="footer-text-item">
               <Mail size={16} style={{ color: 'var(--accent-cyan)', flexShrink: 0, marginTop: '0.15rem' }} />
-              <a href="mailto:info@aquaforge.com" style={{ color: 'inherit', textDecoration: 'none' }}>
-                info@aquaforge.com
+              <a href="mailto:dilwork98@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
+                dilwork98@gmail.com
               </a>
             </li>
           </ul>
