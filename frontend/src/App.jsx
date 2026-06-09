@@ -102,7 +102,7 @@ function AppContent() {
                 objectFit: 'contain'
               }} 
             />
-            <p style={{ margin: 0 }}>© {new Date().getFullYear()} Aqua Forge. Engineered by Panduka.W Studios. All rights reserved.</p>
+            <p style={{ margin: 0 }}>© {new Date().getFullYear()} Aqua Forge. Developed by Panduka.W Studios. All rights reserved.</p>
           </div>
         </div>
       </footer>
